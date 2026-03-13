@@ -1,0 +1,54 @@
+name: Build momentum dashboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 10 * * 1-5' # 6:30 AM US/Eastern during standard time; adjust if you want DST-perfect timing
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate dashboard
+        run: python generate_dashboard.py
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Commit latest generated outputs
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data site
+          git diff --cached --quiet || git commit -m "Update momentum dashboard"
+          git push
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

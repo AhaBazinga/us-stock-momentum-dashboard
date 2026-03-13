@@ -1,0 +1,206 @@
+symbol,name,theme,enabled
+AAPL,Apple,mega-cap-tech,1
+MSFT,Microsoft,mega-cap-tech,1
+NVDA,NVIDIA,ai-semiconductor,1
+AMZN,Amazon,mega-cap-growth,1
+GOOGL,Alphabet Class A,mega-cap-tech,1
+META,Meta Platforms,mega-cap-tech,1
+TSLA,Tesla,growth,1
+NFLX,Netflix,growth,1
+AVGO,Broadcom,semiconductor,1
+AMD,Advanced Micro Devices,semiconductor,1
+QCOM,Qualcomm,semiconductor,1
+TXN,Texas Instruments,semiconductor,1
+MU,Micron Technology,semiconductor,1
+ADI,Analog Devices,semiconductor,1
+MRVL,Marvell Technology,semiconductor,1
+AMAT,Applied Materials,semiconductor-equipment,1
+LRCX,Lam Research,semiconductor-equipment,1
+KLAC,KLA,semiconductor-equipment,1
+ASML,ASML,semiconductor-equipment,1
+ARM,Arm Holdings,ai-semiconductor,1
+INTC,Intel,semiconductor,1
+NXPI,NXP Semiconductors,semiconductor,1
+ON,ON Semiconductor,semiconductor,1
+MPWR,Monolithic Power Systems,semiconductor,1
+CDNS,Cadence Design Systems,chip-design-software,1
+SNPS,Synopsys,chip-design-software,1
+ANET,Arista Networks,ai-networking,1
+PANW,Palo Alto Networks,cybersecurity-growth,1
+CRWD,CrowdStrike,cybersecurity-growth,1
+FTNT,Fortinet,cybersecurity,1
+NET,Cloudflare,cloud-growth,1
+DDOG,Datadog,cloud-growth,1
+SNOW,Snowflake,data-ai,1
+PLTR,Palantir,ai-software,1
+MDB,MongoDB,software-growth,1
+TEAM,Atlassian,software-growth,1
+SHOP,Shopify,growth,1
+UBER,Uber,growth,1
+ABNB,Airbnb,growth,1
+CRM,Salesforce,software,1
+NOW,ServiceNow,software,1
+ADBE,Adobe,software,1
+INTU,Intuit,software,1
+ORCL,Oracle,software,1
+IBM,IBM,software,1
+CSCO,Cisco,networking,1
+ACN,Accenture,services-tech,1
+DELL,Dell Technologies,ai-infrastructure,1
+SMCI,Super Micro Computer,ai-infrastructure,1
+HPE,Hewlett Packard Enterprise,ai-infrastructure,1
+APH,Amphenol,ai-infrastructure,1
+VRT,Vertiv,ai-infrastructure,1
+TTD,The Trade Desk,adtech-growth,1
+APP,AppLovin,growth,1
+DOCU,DocuSign,software,1
+ZM,Zoom Video,software,1
+RBLX,Roblox,growth,1
+DUOL,Duolingo,growth,1
+COIN,Coinbase,fintech-growth,1
+HOOD,Robinhood,fintech-growth,1
+PYPL,PayPal,fintech,1
+XYZ,Block,fintech,1
+V,Visa,fintech,1
+MA,Mastercard,fintech,1
+AXP,American Express,financials-growth,1
+JPM,JPMorgan Chase,financials,1
+GS,Goldman Sachs,financials,1
+MS,Morgan Stanley,financials,1
+BAC,Bank of America,financials,1
+WFC,Wells Fargo,financials,1
+BLK,BlackRock,asset-management,1
+KKR,KKR,alternatives,1
+BX,Blackstone,alternatives,1
+ICE,Intercontinental Exchange,exchange,1
+CME,CME Group,exchange,1
+SPGI,S&P Global,financial-data,1
+MCO,Moody's,financial-data,1
+BRK-B,Berkshire Hathaway,quality,1
+UNH,UnitedHealth Group,healthcare,1
+ELV,Elevance Health,healthcare,1
+LLY,Eli Lilly,healthcare-growth,1
+NVO,Novo Nordisk,healthcare-growth,1
+ABBV,AbbVie,healthcare,1
+JNJ,Johnson & Johnson,healthcare,1
+MRK,Merck,healthcare,1
+ISRG,Intuitive Surgical,medtech-growth,1
+SYK,Stryker,medtech,1
+BSX,Boston Scientific,medtech,1
+TMO,Thermo Fisher Scientific,life-science-tools,1
+DHR,Danaher,life-science-tools,1
+VRTX,Vertex Pharmaceuticals,biotech,1
+REGN,Regeneron,biotech,1
+AMGN,Amgen,biotech,1
+GILD,Gilead Sciences,biotech,1
+MCK,McKesson,healthcare-services,1
+CI,Cigna,healthcare,1
+PFE,Pfizer,healthcare,1
+XOM,Exxon Mobil,energy,1
+CVX,Chevron,energy,1
+COP,ConocoPhillips,energy,1
+SLB,Schlumberger,energy-services,1
+EOG,EOG Resources,energy,1
+OXY,Occidental Petroleum,energy,1
+FANG,Diamondback Energy,energy,1
+HAL,Halliburton,energy-services,1
+CAT,Caterpillar,industrial,1
+DE,Deere,industrial,1
+GE,GE Aerospace,industrial-growth,1
+HON,Honeywell,industrial,1
+ETN,Eaton,industrial-growth,1
+PH,Parker-Hannifin,industrial-growth,1
+EMR,Emerson Electric,industrial,1
+ROP,Roper Technologies,industrial-software,1
+URI,United Rentals,industrial,1
+TT,Trane Technologies,industrial,1
+JCI,Johnson Controls,industrial,1
+WM,Waste Management,defensive,1
+RSG,Republic Services,defensive,1
+LMT,Lockheed Martin,defense,1
+NOC,Northrop Grumman,defense,1
+GD,General Dynamics,defense,1
+RTX,RTX,defense,1
+BA,Boeing,aerospace,1
+MMM,3M,industrial,1
+LIN,Linde,materials,1
+APD,Air Products and Chemicals,materials,1
+SHW,Sherwin-Williams,materials,1
+FCX,Freeport-McMoRan,materials,1
+NEM,Newmont,gold,1
+MLM,Martin Marietta Materials,materials,1
+VMC,Vulcan Materials,materials,1
+NUE,Nucor,materials,1
+STLD,Steel Dynamics,materials,1
+AMCR,Amcor,packaging,1
+PG,Procter & Gamble,defensive,1
+KO,Coca-Cola,defensive,1
+PEP,PepsiCo,defensive,1
+COST,Costco,consumer,1
+WMT,Walmart,consumer,1
+TGT,Target,consumer,1
+HD,Home Depot,consumer,1
+LOW,Lowe's,consumer,1
+MCD,McDonald's,consumer,1
+CMG,Chipotle Mexican Grill,consumer-growth,1
+SBUX,Starbucks,consumer,1
+NKE,Nike,consumer,1
+LULU,Lululemon,consumer-growth,1
+TJX,TJX Companies,consumer,1
+ROST,Ross Stores,consumer,1
+ORLY,O'Reilly Automotive,consumer,1
+AZO,AutoZone,consumer,1
+BKNG,Booking Holdings,travel-growth,1
+EXPE,Expedia,travel,1
+MAR,Marriott International,travel,1
+HLT,Hilton Worldwide,travel,1
+DAL,Delta Air Lines,travel,1
+UAL,United Airlines,travel,1
+AAL,American Airlines,travel,1
+DIS,Walt Disney,media,1
+CMCSA,Comcast,media,1
+TMUS,T-Mobile,telecom,1
+VZ,Verizon,telecom,1
+T,AT&T,telecom,1
+NEE,NextEra Energy,utilities-growth,1
+DUK,Duke Energy,utilities,1
+SO,Southern Company,utilities,1
+CEG,Constellation Energy,utilities-growth,1
+PSX,Phillips 66,energy,1
+MPC,Marathon Petroleum,energy,1
+KMI,Kinder Morgan,midstream,1
+OKE,ONEOK,midstream,1
+TRGP,Targa Resources,midstream,1
+SCHW,Charles Schwab,financials,1
+CB,Chubb,insurance,1
+PGR,Progressive,insurance-growth,1
+AIG,American International Group,insurance,1
+ALL,Allstate,insurance,1
+MMC,Marsh & McLennan,insurance-services,1
+AON,Aon,insurance-services,1
+AJG,Arthur J. Gallagher,insurance-services,1
+CARR,Carrier Global,industrial,1
+IR,Ingersoll Rand,industrial,1
+XYL,Xylem,industrial,1
+ITW,Illinois Tool Works,industrial,1
+PCAR,Paccar,industrial,1
+ODFL,Old Dominion Freight Line,transport,1
+UNP,Union Pacific,transport,1
+CSX,CSX,transport,1
+NSC,Norfolk Southern,transport,1
+FDX,FedEx,transport,1
+UPS,UPS,transport,1
+UBER,Uber,transport-tech,1
+LYFT,Lyft,transport-tech,1
+GOOG,Alphabet Class C,mega-cap-tech,1
+QQQ,Invesco QQQ Trust,etf,1
+SMH,VanEck Semiconductor ETF,etf,1
+SOXX,iShares Semiconductor ETF,etf,1
+XLK,Technology Select Sector SPDR Fund,etf,1
+XLI,Industrial Select Sector SPDR Fund,etf,1
+XLE,Energy Select Sector SPDR Fund,etf,1
+XLF,Financial Select Sector SPDR Fund,etf,1
+XLV,Health Care Select Sector SPDR Fund,etf,1
+IWM,iShares Russell 2000 ETF,etf,1
+SPY,SPDR S&P 500 ETF Trust,etf,1
+DIA,SPDR Dow Jones Industrial Average ETF Trust,etf,1
